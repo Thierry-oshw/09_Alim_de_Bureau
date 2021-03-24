@@ -1,0 +1,567 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 2100 3475 2    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6031BF0F
+P 4550 4375
+AR Path="/5FC6C772/6031BF0F" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/6031BF0F" Ref="J10"  Part="1" 
+F 0 "J10" H 4468 4050 50  0000 C CNN
+F 1 "Conn_01x02" H 4468 4141 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4550 4375 50  0001 C CNN
+F 3 "~" H 4550 4375 50  0001 C CNN
+	1    4550 4375
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 4375 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 4375 4850 4375
+$Comp
+L Connector:ATX-24 J3
+U 1 1 6059D3FA
+P 2100 2750
+F 0 "J3" H 2100 3417 50  0000 C CNN
+F 1 "ATX-24" H 2100 3326 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical" H 2100 2650 50  0001 C CNN
+F 3 "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33" H 4500 2200 50  0001 C CNN
+	1    2100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3350 2100 3475
+Text GLabel 5450 4275 2    50   Input ~ 0
++12V
+Wire Wire Line
+	5350 4275 5450 4275
+Text GLabel 2675 2550 2    50   Input ~ 0
++12V
+Wire Wire Line
+	2600 2550 2675 2550
+Text GLabel 2675 2650 2    50   Input ~ 0
++5V
+Text GLabel 2675 2850 2    50   Input ~ 0
++3V3
+Text GLabel 2675 3150 2    50   Input ~ 0
+-12V
+Wire Wire Line
+	2600 2650 2675 2650
+Wire Wire Line
+	2600 2850 2675 2850
+Wire Wire Line
+	2600 3150 2675 3150
+Text GLabel 2675 2750 2    50   Input ~ 0
++5V_perm
+Wire Wire Line
+	2600 2750 2675 2750
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605A8312
+P 6425 4350
+AR Path="/5FC6C772/605A8312" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605A8312" Ref="J11"  Part="1" 
+F 0 "J11" H 6343 4025 50  0000 C CNN
+F 1 "Conn_01x02" H 6343 4116 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6425 4350 50  0001 C CNN
+F 3 "~" H 6425 4350 50  0001 C CNN
+	1    6425 4350
+	-1   0    0    1   
+$EndComp
+Text GLabel 6725 4350 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6625 4350 6725 4350
+Text GLabel 7325 4250 2    50   Input ~ 0
++12V
+$Comp
+L Connector_Generic:Conn_01x03 J12
+U 1 1 605A865B
+P 4550 4875
+F 0 "J12" H 4468 4550 50  0000 C CNN
+F 1 "Conn_01x03" H 4468 4641 50  0000 C CNN
+F 2 "" H 4550 4875 50  0001 C CNN
+F 3 "~" H 4550 4875 50  0001 C CNN
+	1    4550 4875
+	-1   0    0    1   
+$EndComp
+Text GLabel 5400 4775 2    50   Input ~ 0
++12V
+Text GLabel 4825 4875 2    50   Input ~ 0
+GND
+Text GLabel 5400 4975 2    50   Input ~ 0
+-12V
+Wire Wire Line
+	5325 4775 5400 4775
+Wire Wire Line
+	4750 4875 4825 4875
+Wire Wire Line
+	5325 4975 5400 4975
+$Comp
+L Connector_Generic:Conn_01x03 J13
+U 1 1 605A9FDE
+P 6425 4850
+F 0 "J13" H 6343 4525 50  0000 C CNN
+F 1 "Conn_01x03" H 6343 4616 50  0000 C CNN
+F 2 "" H 6425 4850 50  0001 C CNN
+F 3 "~" H 6425 4850 50  0001 C CNN
+	1    6425 4850
+	-1   0    0    1   
+$EndComp
+Text GLabel 7325 4750 2    50   Input ~ 0
++12V
+Text GLabel 6700 4850 2    50   Input ~ 0
+GND
+Text GLabel 7325 4950 2    50   Input ~ 0
+-12V
+Wire Wire Line
+	6625 4850 6700 4850
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605AAA96
+P 4550 3300
+AR Path="/5FC6C772/605AAA96" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605AAA96" Ref="J6"  Part="1" 
+F 0 "J6" H 4468 2975 50  0000 C CNN
+F 1 "Conn_01x02" H 4468 3066 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4550 3300 50  0001 C CNN
+F 3 "~" H 4550 3300 50  0001 C CNN
+	1    4550 3300
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 3300 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 3300 4850 3300
+Wire Wire Line
+	5350 3200 5450 3200
+Text GLabel 5450 3200 2    50   Input ~ 0
++5V
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605AB593
+P 6425 3275
+AR Path="/5FC6C772/605AB593" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605AB593" Ref="J7"  Part="1" 
+F 0 "J7" H 6343 2950 50  0000 C CNN
+F 1 "Conn_01x02" H 6343 3041 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6425 3275 50  0001 C CNN
+F 3 "~" H 6425 3275 50  0001 C CNN
+	1    6425 3275
+	-1   0    0    1   
+$EndComp
+Text GLabel 6725 3275 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6625 3275 6725 3275
+Text GLabel 7325 3175 2    50   Input ~ 0
++5V
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605ABBAC
+P 4550 2775
+AR Path="/5FC6C772/605ABBAC" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605ABBAC" Ref="J4"  Part="1" 
+F 0 "J4" H 4468 2450 50  0000 C CNN
+F 1 "Conn_01x02" H 4468 2541 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4550 2775 50  0001 C CNN
+F 3 "~" H 4550 2775 50  0001 C CNN
+	1    4550 2775
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 2775 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 2775 4850 2775
+Wire Wire Line
+	5350 2675 5450 2675
+Text GLabel 5450 2675 2    50   Input ~ 0
++3V3
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605AC794
+P 6425 2775
+AR Path="/5FC6C772/605AC794" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605AC794" Ref="J5"  Part="1" 
+F 0 "J5" H 6343 2450 50  0000 C CNN
+F 1 "Conn_01x02" H 6343 2541 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6425 2775 50  0001 C CNN
+F 3 "~" H 6425 2775 50  0001 C CNN
+	1    6425 2775
+	-1   0    0    1   
+$EndComp
+Text GLabel 6725 2775 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6625 2775 6725 2775
+Text GLabel 7325 2675 2    50   Input ~ 0
++3V3
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605ACEA9
+P 4550 2250
+AR Path="/5FC6C772/605ACEA9" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605ACEA9" Ref="J1"  Part="1" 
+F 0 "J1" H 4468 1925 50  0000 C CNN
+F 1 "Conn_01x02" H 4468 2016 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4550 2250 50  0001 C CNN
+F 3 "~" H 4550 2250 50  0001 C CNN
+	1    4550 2250
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 2250 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 2250 4850 2250
+Wire Wire Line
+	5350 2150 5450 2150
+Text GLabel 5450 2150 2    50   Input ~ 0
++5V_perm
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605AD98D
+P 4550 3800
+AR Path="/5FC6C772/605AD98D" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605AD98D" Ref="J8"  Part="1" 
+F 0 "J8" H 4468 3475 50  0000 C CNN
+F 1 "Conn_01x02" H 4468 3566 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4550 3800 50  0001 C CNN
+F 3 "~" H 4550 3800 50  0001 C CNN
+	1    4550 3800
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 3800 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 3800 4850 3800
+Text GLabel 5450 3700 2    50   Input ~ 0
++9V
+Wire Wire Line
+	5350 3700 5450 3700
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605B14F1
+P 6425 3775
+AR Path="/5FC6C772/605B14F1" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605B14F1" Ref="J9"  Part="1" 
+F 0 "J9" H 6343 3450 50  0000 C CNN
+F 1 "Conn_01x02" H 6343 3541 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6425 3775 50  0001 C CNN
+F 3 "~" H 6425 3775 50  0001 C CNN
+	1    6425 3775
+	-1   0    0    1   
+$EndComp
+Text GLabel 6725 3775 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6625 3775 6725 3775
+Text GLabel 7325 3675 2    50   Input ~ 0
++9V
+$Comp
+L Device:LED D1
+U 1 1 605B1EC4
+P 2850 2350
+F 0 "D1" H 2843 2095 50  0000 C CNN
+F 1 "LED" H 2843 2186 50  0000 C CNN
+F 2 "LED_THT:LED_D4.0mm" H 2850 2350 50  0001 C CNN
+F 3 "~" H 2850 2350 50  0001 C CNN
+	1    2850 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 2350 2700 2350
+$Comp
+L Device:R R1
+U 1 1 605B339C
+P 3350 2350
+F 0 "R1" V 3143 2350 50  0000 C CNN
+F 1 "1k" V 3234 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3280 2350 50  0001 C CNN
+F 3 "C21190" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 2350 3200 2350
+Text GLabel 3575 2350 2    50   Input ~ 0
+GND
+Wire Wire Line
+	3500 2350 3575 2350
+Text GLabel 1200 2350 0    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 605B4F69
+P 1450 2550
+AR Path="/5FC6C772/605B4F69" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/605B4F69" Ref="J2"  Part="1" 
+F 0 "J2" H 1368 2225 50  0000 C CNN
+F 1 "Conn_01x02" H 1368 2316 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1450 2550 50  0001 C CNN
+F 3 "~" H 1450 2550 50  0001 C CNN
+	1    1450 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 2350 1350 2350
+Wire Wire Line
+	1450 2350 1600 2350
+$Comp
+L Device:Polyfuse F1
+U 1 1 605B780E
+P 5200 2150
+F 0 "F1" V 4975 2150 50  0000 C CNN
+F 1 "Polyfuse" V 5066 2150 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 5250 1950 50  0001 L CNN
+F 3 "~" H 5200 2150 50  0001 C CNN
+	1    5200 2150
+	0    1    1    0   
+$EndComp
+Text Notes 1100 4050 0    50   ~ 0
+fuse: 2920L300/15DR 
+$Comp
+L Device:Polyfuse F2
+U 1 1 605B8C5A
+P 5200 2675
+F 0 "F2" V 4975 2675 50  0000 C CNN
+F 1 "Polyfuse" V 5066 2675 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 5250 2475 50  0001 L CNN
+F 3 "~" H 5200 2675 50  0001 C CNN
+	1    5200 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F5
+U 1 1 605B8FA3
+P 5200 3200
+F 0 "F5" V 4975 3200 50  0000 C CNN
+F 1 "Polyfuse" V 5066 3200 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 5250 3000 50  0001 L CNN
+F 3 "~" H 5200 3200 50  0001 C CNN
+	1    5200 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2675 4750 2675
+Wire Wire Line
+	4750 2150 5050 2150
+Wire Wire Line
+	4750 3200 5050 3200
+$Comp
+L Device:Polyfuse F7
+U 1 1 605CE871
+P 5200 3700
+F 0 "F7" V 4975 3700 50  0000 C CNN
+F 1 "Polyfuse" V 5066 3700 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 5250 3500 50  0001 L CNN
+F 3 "~" H 5200 3700 50  0001 C CNN
+	1    5200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F9
+U 1 1 605CEDAE
+P 5200 4275
+F 0 "F9" V 4975 4275 50  0000 C CNN
+F 1 "Polyfuse" V 5066 4275 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 5250 4075 50  0001 L CNN
+F 3 "~" H 5200 4275 50  0001 C CNN
+	1    5200 4275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F11
+U 1 1 605CF3AE
+P 5175 4775
+F 0 "F11" V 4950 4775 50  0000 C CNN
+F 1 "Polyfuse" V 5041 4775 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 5225 4575 50  0001 L CNN
+F 3 "~" H 5175 4775 50  0001 C CNN
+	1    5175 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F13
+U 1 1 605CF8BE
+P 5175 4975
+F 0 "F13" V 4950 4975 50  0000 C CNN
+F 1 "Polyfuse" V 5041 4975 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 5225 4775 50  0001 L CNN
+F 3 "~" H 5175 4975 50  0001 C CNN
+	1    5175 4975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3700 5050 3700
+Wire Wire Line
+	4750 4275 5050 4275
+Wire Wire Line
+	4750 4775 5025 4775
+Wire Wire Line
+	4750 4975 5025 4975
+$Comp
+L Device:Polyfuse F3
+U 1 1 605DA517
+P 7075 2675
+F 0 "F3" V 6850 2675 50  0000 C CNN
+F 1 "Polyfuse" V 6941 2675 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 7125 2475 50  0001 L CNN
+F 3 "~" H 7075 2675 50  0001 C CNN
+	1    7075 2675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 2675 6925 2675
+Wire Wire Line
+	7225 2675 7325 2675
+$Comp
+L Device:Polyfuse F4
+U 1 1 605DD0DE
+P 7075 3175
+F 0 "F4" V 6850 3175 50  0000 C CNN
+F 1 "Polyfuse" V 6941 3175 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 7125 2975 50  0001 L CNN
+F 3 "~" H 7075 3175 50  0001 C CNN
+	1    7075 3175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 3175 6925 3175
+Wire Wire Line
+	7225 3175 7325 3175
+$Comp
+L Device:Polyfuse F6
+U 1 1 605E0050
+P 7075 3675
+F 0 "F6" V 6850 3675 50  0000 C CNN
+F 1 "Polyfuse" V 6941 3675 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 7125 3475 50  0001 L CNN
+F 3 "~" H 7075 3675 50  0001 C CNN
+	1    7075 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F8
+U 1 1 605E0574
+P 7075 4250
+F 0 "F8" V 6850 4250 50  0000 C CNN
+F 1 "Polyfuse" V 6941 4250 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 7125 4050 50  0001 L CNN
+F 3 "~" H 7075 4250 50  0001 C CNN
+	1    7075 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F10
+U 1 1 605E0E09
+P 7050 4750
+F 0 "F10" V 6825 4750 50  0000 C CNN
+F 1 "Polyfuse" V 6916 4750 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 7100 4550 50  0001 L CNN
+F 3 "~" H 7050 4750 50  0001 C CNN
+	1    7050 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F12
+U 1 1 605E1317
+P 7050 4950
+F 0 "F12" V 6825 4950 50  0000 C CNN
+F 1 "Polyfuse" V 6916 4950 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" H 7100 4750 50  0001 L CNN
+F 3 "~" H 7050 4950 50  0001 C CNN
+	1    7050 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 4750 6900 4750
+Wire Wire Line
+	6625 4950 6900 4950
+Wire Wire Line
+	7200 4750 7325 4750
+Wire Wire Line
+	7200 4950 7325 4950
+Wire Wire Line
+	7225 4250 7325 4250
+Wire Wire Line
+	6625 4250 6925 4250
+Wire Wire Line
+	6625 3675 6925 3675
+Wire Wire Line
+	7225 3675 7325 3675
+$Comp
+L Regulator_Switching:TSR_1-2490 U1
+U 1 1 605ED71A
+P 3000 4375
+F 0 "U1" H 3000 4742 50  0000 C CNN
+F 1 "TSR_1-2490" H 3000 4651 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" H 3000 4225 50  0001 L CIN
+F 3 "http://www.tracopower.com/products/tsr1.pdf" H 3000 4375 50  0001 C CNN
+	1    3000 4375
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 4275 0    50   Input ~ 0
++12V
+Text GLabel 2900 4575 0    50   Input ~ 0
+GND
+Text GLabel 3525 4275 2    50   Input ~ 0
++9V
+Wire Wire Line
+	3400 4275 3525 4275
+Wire Wire Line
+	2900 4575 3000 4575
+Wire Wire Line
+	2500 4275 2600 4275
+$Comp
+L Device:C C1
+U 1 1 605F2D8B
+P 2325 4575
+F 0 "C1" H 2440 4621 50  0000 L CNN
+F 1 "10uF" H 2440 4530 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 2363 4425 50  0001 C CNN
+F 3 "~" H 2325 4575 50  0001 C CNN
+	1    2325 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 605F3238
+P 3475 4600
+F 0 "C2" H 3590 4646 50  0000 L CNN
+F 1 "10uF" H 3590 4555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 3513 4450 50  0001 C CNN
+F 3 "~" H 3475 4600 50  0001 C CNN
+	1    3475 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2275 4725 0    50   Input ~ 0
+GND
+Text GLabel 2275 4425 0    50   Input ~ 0
++12V
+Text GLabel 3425 4750 0    50   Input ~ 0
+GND
+Text GLabel 3525 4450 2    50   Input ~ 0
++9V
+Wire Wire Line
+	3475 4450 3525 4450
+Wire Wire Line
+	3425 4750 3475 4750
+Wire Wire Line
+	2275 4725 2325 4725
+Wire Wire Line
+	2275 4425 2325 4425
+$EndSCHEMATC
